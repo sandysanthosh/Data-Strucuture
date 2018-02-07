@@ -1,0 +1,70 @@
+Welcome to the Data-Strucuture wiki!
+
+List:
+
+abstract data type:
+
+add
+addall
+contains
+get(int index)
+find index
+remove index
+remove
+size
+toArray
+
+deosnt dictate how the data is organized
+dictates the operations u can perform
+concrete ds is usually a concrete class
+adt is interface
+
+add
+remove
+index
+
+Arraylist:
+
+->can be resizable array implementation
+->employee pojo class ->constructor ->getter and setters ->toString
+->
+
+->List<Employee> employeeList = new ArrayList<>(); //set language as java 7
+employeeList.add(new Employee("Jane","jones",123));
+employeeList.add(new Employee("John","Doe",4567));
+employeeList.add(new Employee("Mary","Smith",22));
+employeeList.add(new Employee("Mike","Wilson",3245));
+}
+}
+
+->get()------->get(1) display the second list 
+->isEmpty()--->false
+->replace----->set()->employeeLIst.set(1,new Employee("john","adams",4568);
+->size()------>capacity length of the list
+->add()-------> add the employee
+
+->convert into toArray():
+
+Employee[] employeeArray = employeeList.toArray(new Employee[employeeList.size()]);
+for(Employee employee: employeeArray){
+System.out.println(employee);}
+
+->contains:
+->generate equals and hashcode:
+System.out.println(employeeList.contains(new Employee("Mike","Wilson",3245)));
+
+indexof:
+
+->contains and index helps in search  algorithm:
+->generate equalsto
+
+remove:
+
+->remove(2)-->remove the second index  ->indexOf(2)
+
+
+not good for:
+
+insertion
+deletion
+accessing
